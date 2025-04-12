@@ -1,6 +1,6 @@
 import { Routes } from '@angular/router';
 import { ProductoComponent } from './components/producto/producto.component';
-import { CarritoComponent } from './carrito/carrito.component';
+import { CarritoComponent } from './components/carrito/carrito.component';
 import { InventarioComponent } from './components/inventario/inventario.component';
 
 export const routes: Routes = [
@@ -9,3 +9,5 @@ export const routes: Routes = [
     {path: 'inventario', component: InventarioComponent }
     
 ];
+
+export default routes;
