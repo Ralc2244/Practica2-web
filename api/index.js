@@ -9,3 +9,4 @@ app.use('/api/productos', productosRouter);
 app.listen(3000, () => {
     console.log('Api corriendo en http://localhost:3000');
 });
+

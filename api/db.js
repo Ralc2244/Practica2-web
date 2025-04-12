@@ -13,3 +13,4 @@ const pool = mysql.createPool({
 
 // Exporta el pool CON promesas
 module.exports = pool.promise();
+
